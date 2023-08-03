@@ -19,4 +19,3 @@ To perform a sonar scan and integrate the result in Sonarcloud with AWS code pip
 ## Challenge(s) faced:
 - I was getting the error as - "CodeBuild cannot find the 0.0.0.0/0 destination for the target internet gateway"
 "Fix": VPC setup wasn't done correctly. Post fix, everything started working fine.
-
